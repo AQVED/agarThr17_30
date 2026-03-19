@@ -53,5 +53,3 @@ class ConnectWindow(CTk):
         self.host = self.host_entry.get()
         self.port = int(self.port_entry.get())
         self.destroy()
-a=ConnectWindow()
-a.mainloop()
